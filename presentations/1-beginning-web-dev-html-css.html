@@ -169,6 +169,7 @@
 
                     ```
                     <p id="js-title" onclick="swapText()">Hello World</p>
+
                     function swapText() {
                       var x = document.getElementById("js-title");
                         if (x.innerHTML === "Hello World") {
@@ -186,171 +187,72 @@
                         <img src="https://placeimg.com/160/120/nature" style="display: block; margin: auto;"></img>
                       </body>
 
-
                     </html>
 
                   </textarea>
                 </section>
 
-                <section id="transitions">
-                    <h2>Transition Styles</h2>
-                    <p>
-                        You can select from different transitions, like: <br>
-                        <a href="?transition=none#/transitions">None</a> -
-                        <a href="?transition=fade#/transitions">Fade</a> -
-                        <a href="?transition=slide#/transitions">Slide</a> -
-                        <a href="?transition=convex#/transitions">Convex</a> -
-                        <a href="?transition=concave#/transitions">Concave</a> -
-                        <a href="?transition=zoom#/transitions">Zoom</a>
-                    </p>
+            <!-- Next Slide -->
+
+                <section data-markdown>
+                  <textarea data-template>
+                    ## Let's Get Developing
+                    ```
+                    <!DOCTYPE html>
+                    <html>
+                      <body>
+                        <p>MacBook Zero</p>
+                        <h1>Nothing is Everything</h1>
+                        <a href="">Learn more</a>
+                        <a href="">Buy</a>
+                        <img src="https://placeimg.com/160/120/nature"></img>
+                      </body>
+                    </html>
+                    ```
+                  </textarea>
                 </section>
 
-                <section>
-                    <section data-background="#dddddd">
-                        <h2>Slide Backgrounds</h2>
-                        <p>
-                            Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-                        </p>
-                        <a href="#" class="navigate-down">
-                            <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-                        </a>
-                    </section>
-                    <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-                        <h2>Image Backgrounds</h2>
-                        <pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
-                    </section>
-                    <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-                        <h2>Tiled Backgrounds</h2>
-                        <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-                    </section>
-                    <section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-                        <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-                            <h2>Video Backgrounds</h2>
-                            <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-                        </div>
-                    </section>
-                    <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-                        <h2>... and GIFs!</h2>
-                    </section>
+            <!-- Next Slide -->
+
+                <section data-markdown>
+                  <textarea data-template>
+                    ## Separating out the CSS
+                    ```
+                    ```
+                  </textarea>
                 </section>
 
-                <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-                    <h2>Background Transitions</h2>
-                    <p>
-                        Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-                    </p>
-                    <pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+            <!-- Next Slide -->
+
+                <section data-markdown>
+                  <textarea data-template>
+                    ## Adding some Javascript
+                    ```
+                    ```
+                  </textarea>
                 </section>
 
-                <section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-                    <h2>Background Transitions</h2>
-                    <p>
-                        You can override background transitions per-slide.
-                    </p>
-                    <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+            <!-- Next Slide -->
+
+                <section data-markdown>
+                  <textarea data-template>
+                    ## Tease Next Class
+                  </textarea>
                 </section>
 
-                <section data-background-iframe="https://hakim.se" data-background-interactive>
-                    <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-                        <h2>Iframe Backgrounds</h2>
-                        <p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
-                    </div>
-                </section>
 
-                <section>
-                    <h2>Pretty Code</h2>
-                    <pre><code class="hljs" data-trim data-line-numbers="4,8-9">
-                      import React, { useState } from 'react';
+            <!-- Next Slide -->
 
-                      function Example() {
-                        const [count, setCount] = useState(0);
+                <section data-markdown>
+                  <textarea data-template>
+                    ## Homework
 
-                        return (
-                          &lt;div&gt;
-                            &lt;p&gt;You clicked {count} times&lt;/p&gt;
-                            &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
-                              Click me
-                            &lt;/button&gt;
-                          &lt;/div&gt;
-                        );
-                      }
-                    </code></pre>
-                    <p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-                </section>
+                    - HTML: up to https://www.w3schools.com/html/html_elements.asp
+                    - CSS: up to https://www.w3schools.com/css/css_colors.asp
+                    - Javascript: https://www.w3schools.com/js/js_statements.asp up to JS_statements
 
-                <section>
-                    <h2>Marvelous List</h2>
-                    <ul>
-                        <li>No order here</li>
-                        <li>Or here</li>
-                        <li>Or here</li>
-                        <li>Or here</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Fantastic Ordered List</h2>
-                    <ol>
-                        <li>One is smaller than...</li>
-                        <li>Two is smaller than...</li>
-                        <li>Three!</li>
-                    </ol>
-                </section>
-
-                <section>
-                    <h2>Tabular Tables</h2>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Item</th>
-                                <th>Value</th>
-                                <th>Quantity</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Apples</td>
-                                <td>$1</td>
-                                <td>7</td>
-                            </tr>
-                            <tr>
-                                <td>Lemonade</td>
-                                <td>$2</td>
-                                <td>18</td>
-                            </tr>
-                            <tr>
-                                <td>Bread</td>
-                                <td>$3</td>
-                                <td>2</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-
-                <section>
-                    <h2>Clever Quotes</h2>
-                    <p>
-                        These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
-                    </p>
-                    <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-                        &ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-                        reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-                    </blockquote>
-                </section>
-
-                <section>
-                    <h2>Intergalactic Interconnections</h2>
-                    <p>
-                        You can link between slides internally,
-                        <a href="#/2/3">like this</a>.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Take a Moment</h2>
-                    <p>
-                        Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-                    </p>
+                    - Tinker with HTML/CSS, try stuff.
+                  </textarea>
                 </section>
 
             </div>
