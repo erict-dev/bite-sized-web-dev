@@ -1,3 +1,8 @@
+*Red, Orange, Green class feedback system. Build into website 'live teaching feedback'*
+- Red: I'm really lost, we need to stop so I can catch up.
+- Orange: I'm holding on but it's getting slightly uncomfortable.
+- Green: I'm coasting, I know this and we can speed up.
+
 # Week 1: Beginning Web Development with HTML and CSS
 - Class goal: Build static webpage resume with HTML/CSS locally
   - Learn the basics of HTML/CSS
@@ -8,6 +13,7 @@
   - add links to shortened urls here that's direct to the page.
 - You'll need Firefox (recommended) or Chrome
 
+---
 
 # What makes up a website:
 Every website on the internet is made up of 3 basic building blocks: HTML, CSS, Javascript.
@@ -47,21 +53,32 @@ Me talking at you isn't a great way for you to learn web dev, so let's get you d
     <div>Hello</div>
   </body>
 </html>
-- Break this down, some boilerplate code, meaning code you just have to put there because the browsers that read your code expect it in order to properly read the file.
+
+---
+
+# Breaking it Down
+
+- some boilerplate code, meaning code you just have to put there because the browsers that read your code expect it in order to properly read the file.
 - HTML basic elements: these are the basic building blocks of html, and your website. You use these elements to define what will be on your website.
   - you can add as many of these as you need to layout your website.
   - they can be nested to create more complex structures.
+
+---
 
 # Build Apple's website
 - https://www.apple.com/mac/
 - Build the macbook air splash section
 - Start with just the html, build that out, make some jokes about how we're good.
 
+---
+
 # Styling
 - So we have it all laid out but it's not styled at all.
 - We need CSS to style it.
 - Link CSS file
 - Style it.
+
+---
 
 # Javascript Example
 -  random background color onkeydown
@@ -94,13 +111,18 @@ Me talking at you isn't a great way for you to learn web dev, so let's get you d
   </body>
   </html>
 
+---
+
 # Homework, tease next class
 - HTML: up to https://www.w3schools.com/html/html_elements.asp
 - CSS: up to https://www.w3schools.com/css/css_colors.asp
 - Javascript: https://www.w3schools.com/js/js_statements.asp up to JS_statements
 
-
+- Tinker with HTML/CSS, try stuff.
 
 - Becoming a strong web developer is not about memorizing every CSS attribute or every HTML element, or every Javascript API. It's about having a strong fundamental understanding of what each piece does, so you know what to search for on StackOverflow when you inevitably run into something you don't know how to do. Because the strongest software engineer or web developer is not the one who knows the most, it's the one who is the best at solving problems and figuring out the things he/she doesn't know. Because there's no way to know everything and the field of web development changes very rapidly.
 
+- Tease next class
+
 ---
+
