@@ -2,57 +2,35 @@
 <html>
 
   <head>
-    <style>
-      p {
-          font-size: 30px;
-          font-weight: 500;
-          margin-bottom: 12px;
-      }
+    <link rel="stylesheet" type="text/css" href="main.css">
 
-      h1 {
-          font-size: 64px;
-          margin-top: 0px;
-          margin-bottom: 12px;
-          font-weight: 500;
-      }
-      
-      a {
-          font-size: 24px;
-          color: #1d88dd;
-          text-decoration: none;
-          margin-left: 12px;
-          margin-right: 12px;
-          font-weight: 300;
-      }
 
-      img {
-          display: block;
-          width: 80%;
-          height: auto;
-          margin: auto;
-          margin-top: 24px;
-      }
-
-      body {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
-          background-color: #fafafa;
-          padding-top: 40px;
-      }
-    </style>
   </head>
 
   <body>
 
-    <p>MacBook Zero</p>
+    <p>MacBook <span id="zero">Zero</span></p>
     <h1>Nothing is everything.</h1>
     <div>
       <a href="">Learn more</a>
       <a href="">Buy</a>
     </div>
     <img src="https://www.apple.com/v/mac/home/ai/images/overview/hero/macbook_air__csdfieli984m_large_2x.jpg"></img>
+
+    <script>
+      var intervalRef = setInterval(changeFontWeight, 1000);
+
+      function changeFontWeight() {
+        var element = document.querySelector('#zero')
+        var style = getComputedStyle(element)
+        if(style.fontWeight == 100){
+          document.getElementById("zero").style.fontWeight = 500;
+        } else {
+          document.getElementById("zero").style.fontWeight = style.fontWeight - 100;
+        }
+      }
+
+    </script>
 
   </body>
 </html>

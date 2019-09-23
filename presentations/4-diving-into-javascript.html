@@ -56,7 +56,7 @@
                   <textarea data-template>
                     #### Bite Sized Web Development
 
-                    ### Class 1 - Intro to HTML/CSS/JS
+                    ### Class 3 - Diving into CSS
                     ---
 
                     <p style="text-align: left;">Pre-Class Setup:</p>
@@ -77,9 +77,6 @@
                 <section data-markdown>
                   <textarea data-template>
                     ## Class Goals
-                    - Learn the different roles of HTML, CSS and Javascript in building a website.
-                    - Build and style a basic website using HTML, CSS and Javascript.
-                    - Run and view the website on your computer.
                   </textarea>
                 </section>
 
@@ -87,8 +84,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## Building Blocks of a Website
-                    Every website on the internet is made up of the same 3 basic building blocks: HTML, CSS and Javascript.
                   </textarea>
                 </section>
 
@@ -96,10 +91,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## What is HTML, CSS, and Javascript?
-                    - HTML defines the **structure** of a website.
-                    - CSS defines the <span style="color: orchid;">styling</span> of a website.
-                    - Javascript defines the <span id="js-functionality-demo">*functionality*<span> of a website.
                   </textarea>
                 </section>
 
@@ -107,26 +98,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## HTML
-
-                    ```
-                      <html>
-                        <body>
-                          <p>Hello World</p>
-                          <a href="bitesized.io">Link to my website</a>
-                          <img src="https://placeimg.com/160/120/nature"></img>
-                        </body>
-                      </html>
-                    ```
-
-                    <html>
-                      <body>
-                        <p>Hello World</p>
-                        <a href="bitesized.io">Link to my website</a>
-                        <img src="https://placeimg.com/160/120/nature"></img>
-                      </body>
-                    </html>
-
                   </textarea>
                 </section>
 
@@ -134,30 +105,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## CSS
-
-                    ```
-                      p {
-                        font-weight: bold;
-                      }
-                      a {
-                        font-size: 16px;
-                        color: orange;
-                      }
-                      img {
-                        display: block;
-                        margin: auto;
-                      }
-                    ```
-
-                    <html>
-                      <body>
-                        <p style="margin-bottom: -25px; font-weight: bold;">Hello World</p>
-                        <a href="bitesized.io" style="color: orange; font-size: 16px;">Link to my website</a>
-                        <img src="https://placeimg.com/160/120/nature" style="display: block; margin: auto;"></img>
-                      </body>
-                    </html>
-
                   </textarea>
                 </section>
 
@@ -165,30 +112,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## Javascript
-
-                    ```
-                    <p id="js-title" onclick="swapText()">Hello World</p>
-
-                    function swapText() {
-                      var x = document.getElementById("js-title");
-                        if (x.innerHTML === "Hello World") {
-                          x.innerHTML = "We Did It!";
-                        } else {
-                          x.innerHTML = "Hello World";
-                      }
-                    }
-                    ```
-
-                    <html>
-                      <body>
-                        <p id="js-title" onclick="swapText()" style="margin-bottom: -25px; font-weight: bold;">Hello World</p>
-                        <a href="bitesized.io" style="color: orange; font-size: 16px;">Link to my website</a>
-                        <img src="https://placeimg.com/160/120/nature" style="display: block; margin: auto;"></img>
-                      </body>
-
-                    </html>
-
                   </textarea>
                 </section>
 
@@ -196,19 +119,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## Let's Get Developing
-                    ```
-                    <!DOCTYPE html>
-                    <html>
-                      <body>
-                        <p>MacBook Zero</p>
-                        <h1>Nothing is Everything</h1>
-                        <a href="">Learn more</a>
-                        <a href="">Buy</a>
-                        <img src="https://placeimg.com/160/120/nature"></img>
-                      </body>
-                    </html>
-                    ```
                   </textarea>
                 </section>
 
@@ -216,13 +126,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## Separating out the CSS
-                    - Uses the <link> tag
-                    - Can link to a local file or a file on the internet via a url
-                    - More organized code means less developer headache
-                    ```
-                      <link rel="stylesheet" type="text/css" href="main.css">
-                    ```
                   </textarea>
                 </section>
 
@@ -230,23 +133,6 @@
 
                 <section data-markdown>
                   <textarea data-template>
-                    ## A Taste of Javascript
-                    ```
-                    <script>
-                      var intervalRef = setInterval(changeFontWeight, 1000);
-
-                      function changeFontWeight() {
-                        var element = document.querySelector('#zero')
-                        var style = getComputedStyle(element)
-                        if(style.fontWeight == 100){
-                          document.getElementById("zero").style.fontWeight = 500;
-                        } else {
-                          document.getElementById("zero").style.fontWeight = style.fontWeight - 100;
-                        }
-                      }
-
-                    </script>
-                    ```
                   </textarea>
                 </section>
 
@@ -255,13 +141,9 @@
                 <section data-markdown>
                   <textarea data-template>
                     ## Tease Next Class
-                    Diving into HTML
-                      - videos
-                      - head meta
-                      - iframes
-                      - tables
-                      - tags for everything
-                      - WTWYU (what tag would you use?)
+
+                    Speeding up developing with Open Source Libraries and Frameworks
+
                   </textarea>
                 </section>
 
@@ -271,12 +153,6 @@
                 <section data-markdown>
                   <textarea data-template>
                     ## Homework
-
-                    - HTML: up to https://www.w3schools.com/html/html_elements.asp
-                    - CSS: up to https://www.w3schools.com/css/css_colors.asp
-                    - Javascript: https://www.w3schools.com/js/js_statements.asp up to JS_statements
-
-                    - Tinker with HTML/CSS, try stuff.
                   </textarea>
                 </section>
 

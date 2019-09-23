@@ -1,0 +1,39 @@
+p {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 64px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+a {
+  font-size: 24px;
+  color: #1d88dd;
+  text-decoration: none;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-weight: 300;
+}
+
+img {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 24px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+  background-color: #fafafa;
+  padding-top: 40px;
+}
+
