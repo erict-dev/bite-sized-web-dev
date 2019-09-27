@@ -1,0 +1,11 @@
+.bottom-bar {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 9px 3px;
+  border-top: 1px solid rgb(235, 235, 235);
+  background-color: white;
+}
+
+.bottom-bar-inner {
+  max-width: 1100px;
+  justify-content: space-between;
+  margin: auto;
+}

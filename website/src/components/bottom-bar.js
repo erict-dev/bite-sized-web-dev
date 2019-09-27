@@ -10,13 +10,16 @@ import Button from 'react-bootstrap/Button'
 import "./bottom-bar.css"
 
 const BottomBar = ({ siteTitle }) => (
-  <Navbar fixed="bottom" variant="light">
-    <Navbar.Brand href="#home">Sign up for a class</Navbar.Brand>
+  <Navbar className="bottom-bar" fixed="bottom" variant="light">
     <Navbar.Toggle />
-    <Navbar.Collapse className="justify-content-end">
+    <Navbar.Collapse className="bottom-bar-inner">
       <Navbar.Text>
-        <Button>Sign up for a class</Button>
-        Signed in as: <a href="#login">Mark Otto</a>
+        <div>Bite Sized 🍫</div>
+        <div>Web Development Classes</div>
+      </Navbar.Text>
+      <Navbar.Text>
+        From $50/person
+        <Button size="sm">See class dates</Button>
       </Navbar.Text>
     </Navbar.Collapse>
   </Navbar>

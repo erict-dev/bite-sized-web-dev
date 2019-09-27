@@ -25,8 +25,8 @@ const IndexPage = () => (
         </Col>
         <Col xs={12} md={9}>
           <div className="box-card-container">
-            <BoxCard icon={OutlineIcon} title="1 hour 30 minutes" description="Packed with valuable knowledge. We dive right into the material and focus on making the most out of class."/>
             <BoxCard icon={OutlineIcon} title="Taught in person" description="By a software engineer and UI/UX designer with years of experience at Blizzard, Facebook, and Apple."/>
+            <BoxCard icon={OutlineIcon} title="1 hour 30 minutes" description="Packed with valuable knowledge. We dive right into the material and focus on making the most out of class."/>
             <BoxCard icon={OutlineIcon} title="Limited class size" description="Small class sizes allow for a better teaching experience and is more effective and valuable for students."/>
             <BoxCard icon={OutlineIcon} title="Affordable" description="At $50 per class we are much more affordable compared to boot camps. We teach more for your time and money."/>
           </div>
@@ -37,7 +37,7 @@ const IndexPage = () => (
     <div class="content-container">
       <Row>
         <Col xs={12} md={3}>
-          About The Classes
+          What you'll learn
         </Col>
         <Col xs={12} md={9}>
           Compared to boot camps which are extremely cost prohibitive and high commitment, 
@@ -52,10 +52,30 @@ Don’t believe us? Try your first class for 25% off.
     </div>
 
     <div class="content-container">
+      <Row>
+        <Col xs={12} md={3}>
+          Your instructor
+        </Col>
+        <Col xs={12} md={9}>
+
+          <b>Eric</b>
+          <p>Compared to boot camps which are extremely cost prohibitive and high commitment,
+costing tens of thousands of dollars over the course of a dozen weeks.
+We teach the same material for magnitudes less because we are not profit driven, 
+we just love to teach. We make enough to cover the 
+cost of renting a space and for the time of our instructors.
+Don’t believe us? Try your first class for 25% off.</p>
+        <Button>Contact</Button>
+        </Col>
+      </Row>
+    </div>
+
+    <div class="content-container">
       <div>Keep in Touch</div>
       <Button>Email List</Button>
       <Button>Discord</Button>
     </div>
+
 
   </Layout>
 )
