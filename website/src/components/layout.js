@@ -13,6 +13,7 @@ import Header from "./header"
 import TopNav from "./top-nav"
 import BottomBar from "./bottom-bar"
 import "./layout.css"
+import "../styles/main.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => {

@@ -6,10 +6,10 @@ import "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div className="main-title">Bite Sized 🍫</div>
+    <div className="main-title" style={{ marginBottom: '-8px' }}>Bite Sized 🍫</div>
     <div className="main-subtitle">Web Development Classes</div>
     <div className="main-caption">Located in Irvine, California</div>
-    <hr />
+    <hr style={{ marginBottom: 0 }}/>
   </header>
 )
 
