@@ -40,13 +40,8 @@ const IndexPage = () => (
           What you'll learn
         </Col>
         <Col xs={12} md={9}>
-          Compared to boot camps which are extremely cost prohibitive and high commitment, 
-costing tens of thousands of dollars over the course of a dozen weeks.
-We teach the same material for magnitudes less because we are not profit driven, 
-we just love to teach. We make enough to cover the 
-cost of renting a space and for the time of our instructors.
-Don’t believe us? Try your first class for 25% off.
-        <Button>Sign up for a class</Button>
+          <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
+        <Button>Upcoming classes</Button>
         </Col>
       </Row>
     </div>
@@ -59,12 +54,7 @@ Don’t believe us? Try your first class for 25% off.
         <Col xs={12} md={9}>
 
           <b>Eric</b>
-          <p>Compared to boot camps which are extremely cost prohibitive and high commitment,
-costing tens of thousands of dollars over the course of a dozen weeks.
-We teach the same material for magnitudes less because we are not profit driven, 
-we just love to teach. We make enough to cover the 
-cost of renting a space and for the time of our instructors.
-Don’t believe us? Try your first class for 25% off.</p>
+          <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
         <Button>Contact</Button>
         </Col>
       </Row>
