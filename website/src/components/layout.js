@@ -10,12 +10,15 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import TopNav from "./top-nav"
+import BottomBar from "./bottom-bar"
 import "./layout.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Layout = ({ children }) => {
   return (
     <>
+      <TopNav />
       <div
         style={{
           margin: `0 auto`,
@@ -30,6 +33,7 @@ const Layout = ({ children }) => {
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
+        <BottomBar />
       </div>
     </>
   )
