@@ -16,9 +16,9 @@ const BottomBar = ({ siteTitle }) => (
       <Navbar.Text>
         <div>Bite Sized 🍫 Web Development Classes</div>
       </Navbar.Text>
-      <Navbar.Text className="bottom-bar-right-content">
+      <Navbar.Text className="bottom-bar-flex-wrap bottom-bar-right-content">
         <span>From $50/person</span>
-        <Link to="/classes"><Button size="sm" style={{ marginLeft: 10 }}>See class dates</Button></Link>
+        <Link to="/classes"><Button size="sm" variant="success" style={{ marginLeft: 10 }}>See class dates</Button></Link>
       </Navbar.Text>
     </Navbar.Collapse>
   </Navbar>

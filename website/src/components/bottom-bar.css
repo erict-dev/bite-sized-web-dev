@@ -16,5 +16,17 @@
 }
 
 .bottom-bar-spacer {
-  margin-bottom: 20px;
+  margin-bottom: 90px;
+  padding-top: 24px;
+}
+
+.navbar-text {
+  font-size: 0.85em !important;
+}
+
+.bottom-bar-flex-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }

@@ -11,6 +11,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 import OutlineIcon from '../images/outline-icon.png';
+import ProfileImg from '../images/profile.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -41,7 +42,7 @@ const IndexPage = () => (
         </Col>
         <Col xs={12} md={9}>
           <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
-          <Link to="/classes"><Button variant="outline-primary">Upcoming Classes</Button></Link>
+          <Link to="/classes"><Button size="sm" variant="outline-primary">See upcoming classes</Button></Link>
         </Col>
       </Row>
     </div>
@@ -53,19 +54,14 @@ const IndexPage = () => (
         </Col>
         <Col xs={12} md={9}>
 
+          <div className="profile-img" style={{ backgroundImage: `url(${ProfileImg})`}}></div>
+
           <b>Eric</b>
           <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
-        <Button variant="outline-primary">Contact</Button>
+        <Button size="sm" variant="outline-primary">Contact</Button>
         </Col>
       </Row>
     </div>
-
-    <div class="content-container">
-      <div>Keep in Touch</div>
-      <Button>Email List</Button>
-      <Button>Discord</Button>
-    </div>
-
 
   </Layout>
 )

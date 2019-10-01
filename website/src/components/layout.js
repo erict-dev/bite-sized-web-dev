@@ -9,6 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Button from 'react-bootstrap/Button';
+
 import Header from "./header"
 import TopNav from "./top-nav"
 import BottomBar from "./bottom-bar"
@@ -30,9 +32,11 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer className="bottom-bar-spacer">
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <div>
+            <Button className="contact-btn" size="sm" variant="outline-dark">Subscribe to our email list</Button>
+            <Button className="contact-btn" size="sm" variant="outline-dark">Join our discord chat</Button>
+          </div>
+          <div className="footer-small">© {new Date().getFullYear()}, Bite Sized Web Dev</div>
         </footer>
         <BottomBar />
       </div>
