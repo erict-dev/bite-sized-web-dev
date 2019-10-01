@@ -37,11 +37,11 @@ const IndexPage = () => (
     <div class="content-container">
       <Row>
         <Col xs={12} md={3}>
-          What you'll learn
+          <div className="content-title">What you'll learn</div>
         </Col>
         <Col xs={12} md={9}>
           <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
-        <Button>Upcoming classes</Button>
+          <Link to="/classes"><Button variant="outline-primary">Upcoming Classes</Button></Link>
         </Col>
       </Row>
     </div>
@@ -49,13 +49,13 @@ const IndexPage = () => (
     <div class="content-container">
       <Row>
         <Col xs={12} md={3}>
-          Your instructor
+          <div className="content-title">Your instructor</div>
         </Col>
         <Col xs={12} md={9}>
 
           <b>Eric</b>
           <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
-        <Button>Contact</Button>
+        <Button variant="outline-primary">Contact</Button>
         </Col>
       </Row>
     </div>

@@ -8,7 +8,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button';
 
-const SecondPage = () => (
+const ContactPage = () => (
   <Layout>
     <SEO title="Page two" />
     <div class="content-container">
@@ -32,4 +32,4 @@ Don’t believe us? Try your first class for 25% off.</p>
   </Layout>
 )
 
-export default SecondPage
+export default ContactPage

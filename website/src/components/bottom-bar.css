@@ -9,3 +9,12 @@
   justify-content: space-between;
   margin: auto;
 }
+
+.bottom-bar-right-content {
+  text-align: right;
+  padding-right: 14px;
+}
+
+.bottom-bar-spacer {
+  margin-bottom: 20px;
+}

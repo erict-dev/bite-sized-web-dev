@@ -1,0 +1,30 @@
+.class-card {
+  border: 1px solid rgb(235, 235, 235);
+  padding: 20px;
+}
+
+.class-card-title {
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+.class-card-date {
+  font-size: 0.8em;
+}
+
+.class-card-price {
+  font-size: 0.75em;
+}
+
+.class-card-spots {
+  font-size: 0.6em;
+}
+
+.class-card-description {
+  margin-top: 10px;
+  font-size: 0.75em;
+}
+
+.class-card-button-container {
+  text-align: right;
+}
