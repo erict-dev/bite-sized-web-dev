@@ -17,7 +17,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Header />
-    <div className="description">Learn web development without the prohibitive costs and commitments of a boot camp.</div>
+    <div className="description">Learn web development and UI/UX design without the prohibitive costs and commitments of a boot camp.</div>
 
     <div class="content-container">
       <Row>
@@ -41,7 +41,7 @@ const IndexPage = () => (
           <div className="content-title">What you'll learn</div>
         </Col>
         <Col xs={12} md={9}>
-          <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
+          <p>Latest web dev tech stack, modern html/css/js, sort through the noise of web dev, the field moves fast, we'll get to the unchanging fundamentals, react, how the web works, ui/ux design trends and tools.</p>
           <Link to="/classes"><Button size="sm" variant="outline-primary">See upcoming classes</Button></Link>
         </Col>
       </Row>
@@ -57,7 +57,7 @@ const IndexPage = () => (
           <div className="profile-img" style={{ backgroundImage: `url(${ProfileImg})`}}></div>
 
           <b>Eric</b>
-          <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
+          <p>magna cum laude ui/ux at UCI, ui/ux research associate for facebook, terrestrial and digital marketing at Apple, 4 years of full stack web software engineering experience at Blizzard, web design and development agency owner/founder/director. passion for teaching</p>
         <Button size="sm" variant="outline-primary">Contact</Button>
         </Col>
       </Row>

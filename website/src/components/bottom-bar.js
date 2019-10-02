@@ -14,7 +14,7 @@ const BottomBar = ({ siteTitle }) => (
     <Navbar.Toggle />
     <Navbar.Collapse className="bottom-bar-inner">
       <Navbar.Text>
-        <div>Bite Sized 🍫 Web Development Classes</div>
+        <div>🍫 Web Development Classes</div>
       </Navbar.Text>
       <Navbar.Text className="bottom-bar-flex-wrap bottom-bar-right-content">
         <span>From $50/person</span>

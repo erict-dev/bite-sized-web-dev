@@ -33,7 +33,7 @@ const ClassesPage = () => (
           <div className="content-title">What to expect</div>
         </Col>
         <Col xs={12} md={9}>
-          <p>Compared to boot camps which are extremely cost prohibitive and high commitment, costing tens of thousands of dollars over the course of a dozen weeks.  We teach the same material for magnitudes less because we are not profit driven, we just love to teach. We make enough to cover the cost of renting a space and for the time of our instructors.</p>
+          <p>We move fast, our teaching philosophy is that if you're comfortable with the material presented in class, then we are wasting your time. So in class we'll push you out of your comfort zone and present you with challenging and valuable material. We'll throw you into the deep end and help you out. Most classes will have a follow along portion so bring your laptops with a coding focused text editor installed like Atom, VSCode, or Vim for the brave and reckless. We will start exactly at 8, we have a lot of material to cover and will not be spending class time helping you get your environment setup. See below for how to prepare for class.</p>
 
         </Col>
       </Row>
@@ -62,8 +62,10 @@ const ClassesPage = () => (
           <div className="content-title">Keep these in mind</div>
         </Col>
         <Col xs={12} md={9}>
-          <p>Bring Laptop with firefox/chrome and a code editor, atom</p>
-          <p>Come 10 minutes early to get settled. We will start right at 8.</p>
+          <p>Come 10 minutes early to get settled. We will start exactly at 8.</p>
+          <p>Bring a laptop with the latest firefox/chrome and a code editor, atom. We will be doing coding in class and will not have time to help you with setup related issues.</p>
+          <p>Be ready to take notes in class</p>
+          <p>No video or audio recordings of the class</p>
         </Col>
       </Row>
     </div>

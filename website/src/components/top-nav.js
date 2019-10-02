@@ -9,8 +9,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown'
 import "./top-nav.css"
 
 const TopNav = ({ siteTitle }) => (
-  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-    <Navbar.Brand href="/">BS🍫WD</Navbar.Brand>
+  <Navbar collapseOnSelect expand="sm" bg="transparent" variant="light">
+    <Navbar.Brand href="/"><strong>Bite Sized</strong> 🍫 Web Dev</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
